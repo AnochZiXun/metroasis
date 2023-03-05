@@ -1,0 +1,825 @@
+﻿a,a:link,a:visited{text-decoration: none;color:#0000EE;}
+a:hover{text-decoration: none;}
+body,html
+{
+	font-size: 13px;
+	line-height: normal;
+    background-color:#FFFFFF;
+    margin: 0px;
+	padding: 0px;
+	font-family: 微軟正黑體,Book Antiqua;
+	height: 100%;
+	background-image:url(../images/background.jpg);
+}
+#divHeader
+{
+	height:25px;
+	background: #006699;
+	text-align:center;
+}
+#divBody
+{
+    height:100%; 
+    min-height:100%; 
+    width: 100%; 
+}
+.MenuBar {
+	color:#000000;
+	float: left;
+	display: inline;
+	height:33px;
+	padding: 3px 0px 0px 0px;
+	*border-left:1px solid #ccc;
+	*background: #2B460B;
+	*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B460B', endColorstr='#2B460B',GradientType=0 );
+	*background: -moz-linear-gradient(top, #2B460B 0%, #2B460B 100%);
+	*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2B460B), color-stop(100%,#2B460B));
+	*background: -webkit-linear-gradient(top, #2B460B 0%,#2B460B 100%);
+	*background: -o-linear-gradient(top, #2B460B 0%,#2B460B 100%);
+	*background: -ms-linear-gradient(top, #2B460B 0%,#2B460B 100%);
+}
+.MenuTitle
+{
+	font-size:18px	;
+	font-weight:bold;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+.divWorkArea
+{
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left:5px;
+    padding-top:5px;
+    padding-right:5px;
+    height:100%;
+    /*overflow:auto;*/
+}
+.Table
+{
+    border-collapse: collapse;
+	border:1px solid #BABAD2;
+	margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+.TableLine
+{
+    border-collapse:collapse;
+    border-style:solid; 
+    border-color: #BABAD2;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-left-style:solid;
+    border-bottom-style:solid;
+    border:1px solid #CCCCCC;
+}
+.TableLine th
+{
+    border:1px solid #CCCCCC;
+}
+.TableLine td
+{
+	font-family: 微軟正黑體,Book Antiqua;
+	font-size:12px;
+    border:1px solid #CCCCCC;
+    height:25px;
+}
+.TableLineCategory
+{
+    border-collapse:collapse;
+    border-style:solid; 
+    border-top-style:solid;
+    border-right-style:solid;
+    border-left-style:solid;
+    border-bottom-style:solid;
+    border:1px dashed #CCCCCC;
+}
+.TableLineCategory th
+{
+    border:1px dashed #CCCCCC;
+}
+.TableLineCategory td
+{
+	font-family: 微軟正黑體,Book Antiqua;
+	font-size:13px;
+    border:1px dashed #CCCCCC;
+    margin: 0px 0px 0px 0px;
+}
+.TableNoLine
+{
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+.TableNoLine td
+{
+    border:0px solid #FFFFFF;
+}
+.divMenu 
+{
+	width: 180px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+}
+#Body
+{
+    height:100%; min-height:100%; width: 100%
+}
+.divTopBar
+{
+    padding-left:10px;
+    height:29px;
+	color:activecaption;
+	background-repeat:repeat-x;
+	background-image:url(../Images/ToolbarBg.gif);
+}
+.MenuName
+{
+	background-color: #C4D5E5;
+	color: #000000;
+	font-family: verdana;
+	font-size : 10pt;
+	vertical-align:middle;	
+	border: 1px solid #BABAD2;
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	margin: 0px 0px 3px 0px;
+    width:100%;
+	height:100%;
+	text-decoration: none;
+	background: -moz-linear-gradient(top, #FAFAFA 0%, #ADC6D9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#ADC6D9));
+	background: -webkit-linear-gradient(top, #FAFAFA 0%,#ADC6D9 100%);
+	background: -o-linear-gradient(top, #FAFAFA 0%,#ADC6D9 100%);
+	background: -ms-linear-gradient(top, #FAFAFA 0%,#ADC6D9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FAFAFA', endColorstr='#ADC6D9',GradientType=0 );
+	background: linear-gradient(top, #FAFAFA 0%,#ADC6D9 100%);
+}
+.SearchLabel
+{
+    font-family:Verdana, Book Antiqu, 微軟正黑體, 新細明體;
+    font-size: 12px;
+    color: #000000;
+    text-shadow: 1px 2px 2px #FFF;
+}
+.DetailLabel
+{
+    font-family: 微軟正黑體, Book Antiqua;
+    font-size: 12px;
+    color: #000000;
+}
+.SeachBar
+{
+    font-family:Verdana, Book Antiqu, 微軟正黑體, 新細明體;
+    padding:5px 0px 5px 0px;
+    background: linear-gradient(top, #F1F3F6 0%,#F1F3F6 100%);
+    border:1px solid #CCCCCC;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    border-bottom-width:thin;
+    border-top-color:#CCCCCC;
+    border-left-color:#CCCCCC;
+    border-right-color:#CCCCCC;
+    border-bottom-color:#F5F5F5;
+	background: #F5F5F5;
+	width:100%;
+	/*
+    background: linear-gradient(top, #F1F3F6 0%,#F1F3F6 100%);
+	background: -moz-linear-gradient(top, #F1F3F6 0%, #F1F3F6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(100%,#F1F3F6));
+	background: -webkit-linear-gradient(top, #F1F3F6 0%,#F1F3F6 100%);
+	background: -o-linear-gradient(top, #F1F3F6 0%,#F1F3F6 100%);
+	background: -ms-linear-gradient(top, #F1F3F6 0%,#F1F3F6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F3F6', endColorstr='#F1F3F6',GradientType=0 );
+*/
+	box-shadow: 0px 0px 0px 0px #aaa;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}	
+.ReportViewer
+{
+    padding-right:5px;
+    margin-right:5px;
+    border:1px solid #666666;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    border-bottom-width:thin;
+    border-top-color:#FFFFFF;
+    border-left-color:#666666;
+    border-right-color:#666666;
+    border-bottom-color:#666666;
+}
+.divDetailLabel
+{
+    font-family: Book Antiqua;
+    font-size: 14px;
+    font-weight:bold;
+    color: #181818;
+    text-shadow: 1px 2px 2px #FFF;
+    padding-left:12px;
+}
+.divDetailText
+{
+    font-family:Arial;
+    border:1px solid #999;
+	padding:3px;
+	border-radius:4px;
+	font-size:12px;
+	color:#333;
+}
+.divDetailTopBar
+{
+	width:100%;
+    padding-top:5px;
+    height:35px;
+    line-height:28px;
+    color: #000000;
+	font-family: verdana;
+	background: #C4D5E5;
+	background: -moz-linear-gradient(top, #838959 0%, #585E2E 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#838959), color-stop(100%,#585E2E));
+	background: -webkit-linear-gradient(top, #838959 0%,#585E2E 100%);
+	background: -o-linear-gradient(top, #838959 0%,#585E2E 100%);
+	background: -ms-linear-gradient(top, #838959 0%,#585E2E 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#838959', endColorstr='#585E2E',GradientType=0 );
+	background: linear-gradient(top, #838959 0%,#585E2E 100%);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.divDetailTopBar .Item
+{
+    float:left;
+    width:20px;
+    color:#FFFFFF; 
+    text-align:center
+}
+.divDetailTopBarEBell
+{
+    padding-top:5px;
+    padding-left:10px;
+    height:35px;
+    line-height:35px;
+    color: #000000;
+	font-family: verdana;
+	background: #006699;
+	background: -moz-linear-gradient(top, #FAFAFA 0%, #006699 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#006699));
+	background: -webkit-linear-gradient(top, #FAFAFA 0%,#006699 100%);
+	background: -o-linear-gradient(top, #FAFAFA 0%,#006699 100%);
+	background: -ms-linear-gradient(top, #FAFAFA 0%,#006699 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FAFAFA', endColorstr='#006699',GradientType=0 );
+	background: linear-gradient(top, #FAFAFA 0%,#006699 100%);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.divDetailTopBarEMthod
+{
+    padding-top:5px;
+    padding-left:10px;
+    height:35px;
+    line-height:35px;
+    color: #000000;
+	font-family: verdana;
+	background: #FFCC99;
+	background: -moz-linear-gradient(top, #FAFAFA 0%, #FFCC99 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFCC99), color-stop(100%,#FFCC99));
+	background: -webkit-linear-gradient(top, #FAFAFA 0%,#ADC6D9 100%);
+	background: -o-linear-gradient(top, #FAFAFA 0%,#FFCC99 100%);
+	background: -ms-linear-gradient(top, #FAFAFA 0%,#FFCC99 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FAFAFA', endColorstr='#FFCC99',GradientType=0 );
+	background: linear-gradient(top, #FAFAFA 0%,#FFCC99 100%);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.divDetailBody
+{
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:4px;
+    padding-bottom:4px;
+	/*background: #F6F6F6;*/
+    /*width:100%;*/
+    border:1px solid #CCCCCC;
+    /*
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#CCCCCC));
+	background: -webkit-linear-gradient(top, #FFFFFF 0%,#CCCCCC 100%);
+	background: -o-linear-gradient(top, #FFFFFF 0%,#CCCCCC 100%);
+	background: -ms-linear-gradient(top, #FFFFFF 0%,#CCCCCC 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#CCCCCC',GradientType=0 );
+    */
+    box-shadow: 0px 0px 0px 0px #aaa;
+    border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.divDetailBodyFamily
+{
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:4px;
+    padding-bottom:4px;
+	background: #E2F3FA;
+    wdith:100%;
+    border:1px solid #CCCCCC;
+    /*
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #FEF9D8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEF9D8), color-stop(100%,#FEF9D8));
+	background: -webkit-linear-gradient(top, #FFFFFF 0%,#FEF9D8 100%);
+	background: -o-linear-gradient(top, #FFFFFF 0%,#FEF9D8 100%);
+	background: -ms-linear-gradient(top, #FFFFFF 0%,#FEF9D8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FEF9D8',GradientType=0 );
+    */
+    box-shadow: 0px 0px 0px 0px #aaa;
+}
+.divDetailBodyCorporate
+{
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:4px;
+    padding-bottom:4px;
+	background: #FEF9D8;
+    wdith:100%;
+    border:1px solid #CCCCCC;
+    /*
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#CCCCCC));
+	background: -webkit-linear-gradient(top, #FFFFFF 0%,#CCCCCC 100%);
+	background: -o-linear-gradient(top, #FFFFFF 0%,#CCCCCC 100%);
+	background: -ms-linear-gradient(top, #FFFFFF 0%,#CCCCCC 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#CCCCCC',GradientType=0 );
+    */
+    box-shadow: 0px 0px 0px 0px #aaa;
+}
+#divWallBoard
+{
+    font-family:Book Antiqua;
+    color:Red; 
+    font-size:12pt;
+}
+#divWorkTopBar
+{
+    background-position: left center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: #EBEBEB;    
+    width: 100%;
+	float: left;
+	display: inline;
+    border: 1px solid #CCCCCC;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+    width: auto;
+    height: 25px;
+	background: -moz-linear-gradient(top, #EBEBEB 0%, #D5D5D5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(100%,#D5D5D5));
+	background: -webkit-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -o-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -ms-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#D5D5D5',GradientType=0 );
+}
+.DataList
+{
+    border:0px;
+    border-width:0;
+}    
+.GridView
+{
+    width:100%;
+    border-width:1px;
+    background-color: #FFFFFF; 
+    border-style:solid;
+    margin: 0px;
+    border: solid 1px #666666; 
+    border-collapse:collapse; 
+    table-layout: fixed;
+}
+.GridView tr:nth-child(even) {background: #ffffff}
+.GridView tr:nth-child(odd)  {background: #ededed}
+.GridView th 
+{ 
+    height:25px;
+    font-family: 微軟正黑體, Book Antiqua;
+    font-size: 14px;
+    border: solid 1px #CCCCCC; 
+    background: #838959;
+	background: -moz-linear-gradient(top, #838959 0%, #585E2E 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#838959), color-stop(100%,#585E2E));
+	background: -webkit-linear-gradient(top, #838959 0%,#585E2E 100%);
+	background: -o-linear-gradient(top, #838959 0%,#585E2E 100%);
+	background: -ms-linear-gradient(top, #838959 0%,#585E2E 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#838959', endColorstr='#585E2E',GradientType=0 );
+	background: linear-gradient(top, #838959 0%,#585E2E 100%);
+	color: #FFFFFF;
+	//text-shadow: 0px 5px 5px 0px #000;
+}
+.GridView td 
+{ 
+    padding: 6px; 
+    color: #000000; 
+    font-size:13px;
+    font-family: 微軟正黑體, Book Antiqua;
+    border: solid 1px #CCCCCC; 
+    word-break:break-all;
+}
+.GridView .alt 
+{
+    border: solid 1px #666666; 
+    background-color:F5F5F5;
+    /*
+    background: #D2DDE9;  
+	background: -moz-linear-gradient(top, #F1F3F6 0%, #D2DDE9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1F3F6), color-stop(100%,#D2DDE9));
+	background: -webkit-linear-gradient(top, #F1F3F6 0%,#D2DDE9 100%);
+	background: -o-linear-gradient(top, #F1F3F6 0%,#D2DDE9 100%);
+	background: -ms-linear-gradient(top, #F1F3F6 0%,#D2DDE9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F3F6', endColorstr='#D2DDE9',GradientType=0 );
+	background: linear-gradient(top, #F1F3F6 0%,#D2DDE9 100%);
+	*/
+}
+.GridView .altHighLight 
+{
+    border: solid 1px #666666; 
+    background: #FFF39B;  
+	background: -moz-linear-gradient(top, #FFF39B 0%, #F9E872 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF39B), color-stop(100%,#F9E872));
+	background: -webkit-linear-gradient(top, #FFF39B 0%,#F9E872 100%);
+	background: -o-linear-gradient(top, #FFF39B 0%,#F9E872 100%);
+	background: -ms-linear-gradient(top, #FFF39B 0%,#F9E872 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F3F6', endColorstr='#F9E872',GradientType=0 );
+	background: linear-gradient(top, #FFF39B 0%,#F9E872 100%);
+}
+.GridView .altTaiwan 
+{
+    border: solid 1px #666666; 
+    background: #FCDFF3;  
+	background: -moz-linear-gradient(top, #FCDFF3 0%, #F4B9CD 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FCDFF3), color-stop(100%,#F4B9CD));
+	background: -webkit-linear-gradient(top, #FCDFF3 0%,#F4B9CD 100%);
+	background: -o-linear-gradient(top, #FCDFF3 0%,#F4B9CD 100%);
+	background: -ms-linear-gradient(top, #FCDFF3 0%,#F4B9CD 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCDFF3', endColorstr='#F4B9CD',GradientType=0 );
+	background: linear-gradient(top, #FCDFF3 0%,#F4B9CD 100%);
+}
+.GridView .pgr 
+{
+    display:none;
+}
+.GridViewPgr 
+{
+    display:none;
+}
+.PSchedule_SeachBar
+{
+    font-family:Verdana, Book Antiqu, 微軟正黑體, 新細明體;
+    padding:5px 5px 5px 5px;
+    background: linear-gradient(top, #F1F3F6 0%,#F1F3F6 100%);
+    border:1px solid #CCCCCC;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    border-bottom-width:thin;
+    border-top-color:#CCCCCC;
+    border-left-color:#CCCCCC;
+    border-right-color:#CCCCCC;
+    border-bottom-color:#FFFFFF;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 0px 0px #aaa;
+	/*border-top-left-radius: 8px;
+	border-top-right-radius: 8px;*/
+}	
+.GridView_PSchedule
+{
+    border-width:1px;
+    background-color: #FFFFFF; 
+    border-style:solid;
+    margin: 0px;
+    border: solid 1px #CCCCCC; 
+    border-collapse:collapse; 
+}
+.GridView_PSchedule th 
+{ 
+    height:25px;
+    font-family: Verdana, Book Antiqua;
+    font-size: 8pt;
+    border: solid 1px #CCCCCC; 
+    background: #F5F5F5;
+	color: #000000;
+    text-shadow: 0px 5px 5px 0px #000;
+}
+.GridView_PSchedule td 
+{ 
+    padding: 5px; 
+    color: #000000; 
+    font-size:8pt;
+    font-family: Verdana, Book Antiqua;
+    border: solid 1px #CCCCCC; 
+}
+.GridView_PSchedule .alt 
+{ 
+    background: #EBEBEB;    
+	background: -moz-linear-gradient(top, #EBEBEB 0%, #D5D5D5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(100%,#D5D5D5));
+	background: -webkit-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -o-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -ms-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#D5D5D5',GradientType=0 );
+	background: linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+}
+.GridView_PSchedule .pgr 
+{
+    display:none;
+}
+.GridViewFooter
+{
+	margin: 0 auto;
+	font-family: "微軟正黑體", "Microsoft JhengHei", "Adobe 繁黑體 Std B";
+    font-size: 10pt;
+    padding-left:5px;
+    padding-right:5px;
+    height:32px;
+    width:500px;
+	line-height:32px;
+	border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    border-bottom-width:thin;
+    border-top-color:#CCCCCC;
+    border-left-color:#CCCCCC;
+    border-right-color:#CCCCCC;
+    border-bottom-color:#CCCCCC;
+    border-style:solid;
+    background: #F5F5F5;
+    background: linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	background: -moz-linear-gradient(top, #F5F5F5 0%, #D5D5D5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#D5D5D5));
+	background: -webkit-linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	background: -o-linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	background: -ms-linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5F5F5', endColorstr='#D5D5D5',GradientType=0 );
+	/*position:fixed !important; */
+    /*position:absolute; z-index:300;*/
+    /*for ie*/ 
+    /*top:expression(document.body.clientHeight + offsetParent.scrollTop-this.offsetHeight-5);*/
+    /*for ff*/ 
+    /*bottom:20px;*/
+}
+.GridViewFooterFix
+{
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    height:30px;
+    width:450px;
+	line-height:25px;
+	border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    border-bottom-width:thin;
+    border-top-color:#666666;
+    border-left-color:#666666;
+    border-right-color:#666666;
+    border-bottom-color:#666666;
+    border-style:solid;
+    background: #EBEBEB;
+    background: linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -moz-linear-gradient(top, #EBEBEB 0%, #D5D5D5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(100%,#D5D5D5));
+	background: -webkit-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -o-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -ms-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#D5D5D5',GradientType=0 );
+}
+.ToolBar
+{
+    left:600px;
+    padding-left:5px;
+    padding-right:5px;
+    height:30px;
+	line-height:30px;
+	border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    border-bottom-width:thin;
+    border-top-color:#666666;
+    border-left-color:#666666;
+    border-right-color:#666666;
+    border-bottom-color:#666666;
+    border-style:solid;
+    background: #EBEBEB;
+    background: linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -moz-linear-gradient(top, #EBEBEB 0%, #D5D5D5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(100%,#D5D5D5));
+	background: -webkit-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -o-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -ms-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#D5D5D5',GradientType=0 );
+}
+.ToolBarFooter
+{
+    left:400px;
+    padding-left:5px;
+    padding-right:5px;
+    height:30px;
+	line-height:30px;
+	border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    border-bottom-width:thin;
+    border-top-color:#CCCCCC;
+    border-left-color:#CCCCCC;
+    border-right-color:#CCCCCC;
+    border-bottom-color:#CCCCCC;
+    border-style:solid;
+    background: #F5F5F5;
+    background: linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	background: -moz-linear-gradient(top, #F5F5F5 0%, #D5D5D5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#D5D5D5));
+	background: -webkit-linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	background: -o-linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	background: -ms-linear-gradient(top, #F5F5F5 0%,#D5D5D5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5F5F5', endColorstr='#D5D5D5',GradientType=0 );
+	position:fixed !important; 
+    position:absolute; z-index:300;
+    /*for ie*/ 
+    top:expression(document.body.clientHeight + offsetParent.scrollTop-this.offsetHeight-5);
+    /*for ff*/ 
+    bottom:20px;
+}
+.dropdownlist
+{
+    font-family: 微軟正黑體, Book Antiqua;
+    font-size: 13px;
+    border:1px solid #999;
+	padding:2px;
+	border-radius:4px;
+	font-weight:400;
+	color:#333;
+}
+.RadioButtonList
+{
+    font-family: 微軟正黑體, Book Antiqua;
+    font-size: 13px;
+    border:1px solid #999;
+	padding:0px;
+	border-radius:4px;
+	font-weight:400;
+	color:#333;
+}
+.RadioButtonList td
+{
+    border: 0px;
+}
+.CheckButtonList
+{
+    font-family: Book Antiqua, メイリオ, ＭＳ Ｐゴシック, Osaka, ヒラギノ角ゴ Pro W3, MS PGothic;
+    border:1px solid #999;
+	padding:0px;
+	border-radius:4px;
+	font-size:12px;
+	font-weight:400;
+	color:#333;
+}
+.CheckButtonList td
+{
+    border: 0px;
+}
+#BulletinTitle
+{
+    background: -moz-linear-gradient(top, #EBEBEB 0%, #D5D5D5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(100%,#D5D5D5));
+	background: -webkit-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -o-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	background: -ms-linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#D5D5D5',GradientType=0 );
+	background: linear-gradient(top, #EBEBEB 0%,#D5D5D5 100%);
+}
+.BulletinTitleText
+{
+    font-family:Book Antiqua;
+    font-size: 20px;
+    font-weight:bold;
+    padding-left:10px;
+    width:98%;
+    overflow:auto;
+}
+.divBulletinDetail
+{
+    padding:5px;   
+}
+.TextBox
+{
+    font-family: 微軟正黑體, Book Antiqua;
+    font-size: 13px;
+    border:1px solid #999;
+	padding:3px;
+	border-radius:4px;
+	font-weight:400;
+	color:#333;
+}
+.TextBoxCenter
+{
+    font-family: Verdana, Book Antiqua;
+    border:1px solid #999;
+	padding:3px;
+	border-radius:4px;
+	font-size:12px;
+	font-weight:100;
+	color:#333;
+    text-align:center;
+}
+.Index_GridView
+{
+    /*
+    width:100%;
+    border-width:1px;
+    background-color: #FFFFFF; 
+    border-style:solid;
+    margin: 0px;
+    border: solid 1px #666666; 
+    border-collapse:collapse; 
+*/
+}
+.Index_GridView th 
+{ /*
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    */  
+    padding: 0px 0px 0px 0px;
+    width:100%;
+    height:100%;
+    font-family: Verdana, Book Antiqua;
+    font-size: 10px;
+    border: solid 1px #666666; 
+    background: #3d6aa6;
+	background: -moz-linear-gradient(top, #F1F3F6 0%, #9CB6D2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1F3F6), color-stop(100%,#9CB6D2));
+	background: -webkit-linear-gradient(top, #F1F3F6 0%,#9CB6D2 100%);
+	background: -o-linear-gradient(top, #F1F3F6 0%,#9CB6D2 100%);
+	background: -ms-linear-gradient(top, #F1F3F6 0%,#9CB6D2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F3F6', endColorstr='#9CB6D2',GradientType=0 );
+	background: linear-gradient(top, #F1F3F6 0%,#9CB6D2 100%);
+	color: darkblue;
+    text-shadow: 0px 5px 5px 0px #000;
+}
+._5ugh 
+{
+    -webkit-background-clip: padding-box;
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    padding: 0px 3px 0 3px;border-radius:3px;
+}
+._3z_5 
+{
+    background-color: #dc0d17;
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#fa3c45), to(#dc0d17));
+    background-image: -webkit-linear-gradient(top, #fa3c45 0%, #dc0d17 100%);
+    color: #fff;
+    height: 15px;
+    line-height: 15px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+}
+.Mandatory
+{
+    color:Red;
+}
+.labMessage
+{
+	color: #FFFFFF; font-size: 16px;font-family: 微軟正黑體; font-weight:bold;	
+}

@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>城市綠洲戶外生活館-單車、運動用品、露營、登山、潛水、健行、保暖</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/slides.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/style_forBS.css" rel="stylesheet">
+    <!--bootstrap-->
+    <link href="css/style_forDIY.css" rel="stylesheet">
+    <!--bootstrap-->
+    <link rel="stylesheet" media="screen,projection" href="css/ui.totop.css" />
+    <link href="css/flexslider.css" type="text/css" rel="stylesheet" />
+    <script src="js/menu.js"></script>
+    <!-- menu下拉 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/flycan.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/jquery.flexslider-min.js"></script>
+</head>
+<body>
+<?php include("_include/_head.php"); ?>
+    <!-- 上方選單end -->
+    <div id="CONTENT-2">
+        <!-- 第一塊大的區塊 -->
+        <div class="row">
+            <!-- 左欄區塊 -->
+            <div class="row leftBOX">
+                <!-- 產品menu -->
+                <?php include("_include/_productList.php"); ?>
+                <!-- 折扣活動 -->
+                <?php include("_include/_sale.php"); ?>
+            </div>
+            <!-- 右欄區塊 -->
+            <div class="row rightBOX">
+                <!-- 路徑 -->
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.php">首頁</a></li>
+                  <li class="breadcrumb-item"><a href="#">會員專區</a></li>
+                  <li class="breadcrumb-item active">註冊</li>
+                </ol>
+                 <!-- 標題 -->
+                <div class="alert alert-info" role="alert">
+                    <strong><i class="fa fa-bars" aria-hidden="true"></i></strong> 會員註冊
+                    <div class="FloatR"><i class="fa fa-arrows-v" aria-hidden="true"></i><i class="fa fa-arrows-v" aria-hidden="true"></i> 會員中心：
+                        <select class="custom-select">
+                          <option selected>修改資料</option>
+                          <option value="1">訂單查詢</option>
+                          <option value="2">我的收藏</option>
+                          <option value="3">紅利績點</option>
+                          <option value="4">我的報名</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- 內容開始 -->
+                <div class="frameBOX">
+                  <div class="alert alert-success" role="alert" >
+                      <p><strong>注意!!</strong>完成本服務的註冊程序之後，您將會收到一個會員帳號及密碼。維持帳號及密碼的機密安全，是您的義務；以同一個會員帳號和密碼使用本服務所進行的所有行為，除經證明係可歸責於城市綠洲之故意或重大過失所致者外，都將視為是您本人的行為，應由您自行依法負責。此外，您不得有任何違法或不當使用他人之帳號或密碼之行為。</p>
+                  </div>  
+                  <div class="login-page">      
+                    <div class="login-body">
+                      <form action="#" method="post">
+                        <input type="text" class="user" name="email" placeholder="請輸入您常使用的E-MAIL信箱帳號。" required="">
+                        <input type="password" name="password" class="lock" placeholder="須要有英文大小寫及數字，字位 8 ~ 30 個字母之間" required="">
+                        <input type="password" name="password" class="lock" placeholder="再次輸入密碼" required="">
+                        <input type="text" class="user" name="email" placeholder="請將下方顯示的驗證碼輸入至欄位中" required="">
+                        <div><img src="images/code.jpg">　<a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> 看不懂請換一組驗證碼</a></div>
+                      </form>
+                      <div class="form-check" style="text-align: left; margin: 20px 0; color: #ef4300;">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" value="">
+                          我已詳細閱讀<a href="#">《服務條款》 </a> 並同意
+                        </label>
+                      </div>  
+                      <a href="register_1.php"><input type="submit" value=" 下一步 "></a>  
+                    </div>  
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <?php include("_include/_footer.php"); ?>
+    <!-- easing plugin ( optional ) -->
+    <script src="js-top/easing.js" type="text/javascript"></script>
+    <!-- UItoTop plugin -->
+    <script src="js-top/jquery.ui.totop.js" type="text/javascript"></script>
+    <!-- Starting the plugin -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+            
+            $().UItoTop({ easingType: 'easeOutQuart' });
+            
+        });
+    </script>
+</body>
+</html>
